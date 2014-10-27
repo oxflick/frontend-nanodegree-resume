@@ -38,10 +38,11 @@ var HTMLworkLocation = "<div class='location-text'>%data%</div>";
 var HTMLworkDescription = "<p><br>%data%</p>";
 
 var HTMLprojectStart = "<div class='project-entry'></div>";
-var HTMLprojectTitle = "<h3>%data%</h3>";
+var HTMLprojectTitle = "<a href='%url%' target='_blank'><h3>%data%</h3></a>";
 var HTMLprojectDates = "<div class='date-text'>%data%</div>";
 var HTMLprojectDescription = "<p><br>%data%</p>";
 var HTMLprojectImage = "<img class='img-responsive img-thumbnail' src='%data%'>";
+
 
 var HTMLschoolStart = "<div class='education-entry'></div>";
 var HTMLschoolName = "<h3>%data%</h3>";

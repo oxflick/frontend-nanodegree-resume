@@ -23,18 +23,21 @@ var projects = {
     "projects": [
         {
             "title": "Funkyflick.com",
+            "urls": "http://www.funkyflick.com",
             "dates": "07-01-2013 - present",
             "description": "Managed a group of web-developers and learned how to implement HTML, CSS and JavaScript into dynamic website.",
             "images": "images/funkyflick_modal.png"          
         },
         {
             "title": "Navyart.com",
+            "urls" : "http://www.navyart.com",
             "dates": "Spring 2014",
             "description": "Designed a Navyart.com, the official website of the chief U.S. Navy artist Arthur Beaumont (1870-1978). This website was hand-coded in using Dreamweaver, HTML, CSS and JavaScript.",
             "images": 'images/navyart_modal.png'  
         },
         {
             "title": "Oxanaweb.com",
+            "urls" : "http://www.oxanaweb.com",
             "dates": "October 2014",
             "description": "Designed my official website using HTML, Bootstrap framework, CSS and JavaScript.",
             "images": "images/oxanaweb_modal.png"  
@@ -150,7 +153,7 @@ if (bio.skills.length > 0) {
   
    $("#projects").append(HTMLprojectStart);
   
-   var formattedProjectTitle = HTMLprojectTitle.replace("%data%", projects.projects[project].title);
+   var formattedProjectTitle = HTMLprojectTitle.replace("%data%", projects.projects[project].title).replace('%url%', projects.projects[project].urls);
    $(".project-entry:last").append(formattedProjectTitle);
   
    var formattedProjectDates = HTMLprojectDates.replace("%data%", projects.projects[project].dates);

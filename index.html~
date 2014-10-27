@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width">
+  <meta name="description" content="Resume of the Website Developer in the San Francisco Bay Area. Ruby on Rails, Responsive Design, HTML, CSS, JavaScript and best practices.">
   <title>Oxana Web Resume</title>
   <link href="css/style.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -75,14 +76,14 @@
        </div>
        
        <div id="letsConnect" class='box'>
-          <h2 class='pink center-text'>Let's Connect</h2>
+          <a href="#" target="_top" class='center-text'>Let's Connect</a>
           <ul id="footerContacts" class="flex-box">
           </ul>
        </div>
     </div>
    </div>
   </div>
- </div> 
+ </div> <!-- end of Container -->
 
   <!--
   The next line tells the browser where to download the JavaScript file you'll be

@@ -186,11 +186,22 @@ a {
   text-align: center;
 }
 
-.pink {
+#letsConnect a {
   background-color: #B23290;
   color: #FFF;
   border-radius: 5px;
   margin-top: 40px;
+  font-size: 1.4em;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-decoration: none;
+}
+
+#letsConnect a:hover, a:visited, a:active {
+ color: #C99;
 }
 
 .center-content {
