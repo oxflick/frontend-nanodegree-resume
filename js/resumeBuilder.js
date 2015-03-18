@@ -4,7 +4,7 @@ var work = {
     "jobs": [
         {
             "employer": "Funkyflick, Inc.",
-            "title": "Project Manager",
+            "title": "Developer",
             "location": "Santa Clara, CA",
             "dates": "07-01-2013 - present",
             "description": "My goals are to contribute to the success of FunkyFlick - Personalized movie search high-tech company by applying a varied set of experiences in Project Management and broad understanding of the web application structure. FunkyFlick offers unique services for finding movies based on your favorite book, TV show, movie or any wikipedia page."
