@@ -2,18 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width">
+   <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
   <meta name="description" content="Resume of the Website Developer in the San Francisco Bay Area. Ruby on Rails, Responsive Design, HTML, CSS, JavaScript and best practices.">
   <title>Oxana Web Resume</title>
   <link href="css/style.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
-  <script src="js/jquery-2.1.1.min.js"></script>
+
   <script src="js/bootstrap.min.js"></script>
   <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
-  
-  <script src="js/jQuery.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
   <script src="js/helper.js"></script>
-  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
 
   
 </head>
@@ -72,7 +72,9 @@
         </div>
          <!-- MAP -->
         <div id="mapDiv" class="box">
-          <h2>Where I've Lived and Worked</h2>
+          <h2>Where I Live and Work</h2>
+          <div id="map-canvas" class="box">
+          </div>
        </div>
         <!--Let's Connect -->
        <div id="letsConnect" class='box'>
@@ -132,13 +134,13 @@
     document.getElementById("education").style.backgroundColor = "black";
   }
   if(document.getElementsByClassName("skills-entry").length === 0) {
-    document.getElementById("skillsChart").style.backgroundColor = "black";
+    document.getElementById("skills").style.backgroundColor = "#EAE3DE";
   }
   if(document.getElementsByClassName("flex-item").length === 0) {
     document.getElementById("letsConnect").style.backgroundColor = "black";
   }
   if(document.getElementById("map") == undefined) {
-    document.getElementById("mapDiv").style.backgroundColor = "black";
+    document.getElementById("mapDiv").style.backgroundColor = "#EAE3DE";
   }
   </script>
 </body>

@@ -63,7 +63,7 @@ var HTMLlanguageItem = "<li><span class='pinky-text'>%data%</span></li>";
 var HTMLhobbyItem = "<div class='hobby'>%data%</div>";
 
 var internationalizeButton = "<button>Internationalize</button>";
-var googleMap = "<div id='map' class='box'></div>";
+
 
 
 /*

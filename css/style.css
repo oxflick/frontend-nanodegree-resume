@@ -232,6 +232,17 @@ img {
 span {
   padding: 5px;
 }
+#mapDiv {
+  height: 400px;
+  width: 100%;
+  padding-bottom: 10%;
+}
+#map-canvas {
+  display: block;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
 
 
 /* MEDIA */
@@ -260,7 +271,7 @@ span {
   }
 }
 
-#map {
+#map-canvas {
   display: block;
   height: 100%;
   margin-left: 1%;
