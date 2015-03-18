@@ -6,6 +6,13 @@ var work = {
             "employer": "Funkyflick, Inc.",
             "title": "Developer",
             "location": "Santa Clara, CA",
+            "dates": "08-01-2014 - present",
+            "description": "Developing functional web application based on usability best practices for FunkyFlick - Personalized movie search high-tech company."
+        },
+        {
+            "employer": "Funkyflick, Inc.",
+            "title": "Project Manager",
+            "location": "Santa Clara, CA",
             "dates": "07-01-2013 - present",
             "description": "My goals are to contribute to the success of FunkyFlick - Personalized movie search high-tech company by applying a varied set of experiences in Project Management and broad understanding of the web application structure. FunkyFlick offers unique services for finding movies based on your favorite book, TV show, movie or any wikipedia page."
         },
@@ -72,7 +79,9 @@ var bio = {
         "HTML/CSS",
         "JavaScript",
         "Ruby on Rails",
-        "MySQL"
+        "MySQL",
+        "Website Performance Optimization"
+
     ]
 }
 
@@ -119,7 +128,8 @@ if (bio.skills.length > 0) {
     $("#skills").append(formattedSkill);
     formattedSkill = HTMLskills.replace("%data%", bio.skills[4]);
     $("#skills").append(formattedSkill);
-   
+    formattedSkill = HTMLskills.replace("%data%", bio.skills[5]);
+    $("#skills").append(formattedSkill);
    };
    
    //Job Display
