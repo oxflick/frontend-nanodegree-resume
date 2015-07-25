@@ -29,7 +29,7 @@ var work = {
 var projects = {
     "projects": [
         {
-            "title": "Funkyflick.com",
+            "title": "funkyflick.herokuapp.com",
             "urls": "http://funkyflick.herokuapp.com/",
             "dates": "07-01-2013 - present",
             "description": " Designed Web Application using Ruby on Rails, Bootstrap, JavaScript and added it on Heroku.",
@@ -39,15 +39,36 @@ var projects = {
             "title": "Navyart.com",
             "urls" : "http://www.navyart.com",
             "dates": "Spring 2014",
-            "description": "Designed a Navyart.com, the official website of the chief U.S. Navy artist Arthur Beaumont (1870-1978). This website was hand-coded in using HTML, CSS(Bootstrap) and JavaScript(jQuery).",
+            "description": "Navyart.com is the official website of the chief U.S. Navy artist Arthur Beaumont (1870-1978). Main skills used: Design, HTML, CSS, Bootstrap Framework and JavaScript.",
             "images": 'images/navyart_modal.png'  
         },
         {
             "title": "Oxanaweb.com",
             "urls" : "http://www.oxanaweb.com",
             "dates": "October 2014",
-            "description": "Designed my official website using HTML, Bootstrap framework, CSS and JavaScript.",
+            "description": "Designed my official page using HTML, Bootstrap framework, CSS and JavaScript.",
             "images": "images/oxanaweb_modal.png"  
+        }, 
+        {
+            "title": "Museum.oxanaweb.com",
+            "urls" : "http://museum.oxanaweb.com/",
+            "dates": "February 2015",
+            "description": "Museum.oxanaweb.com is a web application build using Knockout.js, Google Maps API, Wiki API to search for museums around the world. Main skills used: JavaScript, jQuery, Knockout.js, CSS, Ajax.",
+            "images": "images/museum.png"  
+        }, 
+        {
+            "title": "Natalyataxlaw.com",
+            "urls" : "http://natalyataxlaw.com/",
+            "dates": "June 2015",
+            "description": "Natalyataxlaw.com is a website for Bay Area CPA&Attorney. It is developed on Wordpress and the theme is hand-coded. Main skills used: PHP, HTML, CSS, Bootstrap, JavaScript, Wordpress. ",
+            "images": "images/natalyacpa.png"  
+        }, 
+        {
+            "title": "KomfiKidzDesign.com",
+            "urls" : "http://www.komfikidzdesign.com/",
+            "dates": "July 2015",
+            "description": "KomfiKidz is an online store that sells hand made baby blankets. The client needed to update the existing website and make it responsive. We chose to develop a store with Wordpress. The design idea did not change. I developed a custom theme for Wordpress and connected Pay Pal shopping cart. Bootstrap is used for framework. Main skills used: HTML, CSS, PHP, Bootstrap, Website Optimization. ",
+            "images": "images/komfikidz.png"  
         }    
     ]
 };
@@ -78,7 +99,7 @@ var bio = {
         "Project Management",
         "HTML/CSS",
         "JavaScript",
-        "Ruby on Rails",
+        "Ruby on Rails, PHP, Wordpress",
         "MySQL",
         "Website Performance Optimization"
 
@@ -107,7 +128,7 @@ var education = {
         {
             "title": "Front-End Web Developer Nanodegree",
             "school": "Udacity",
-            "dates": "October 2014 - present",
+            "dates": "October 2014 - May 2015",
             "urls": "http://www.udacity.com"
         }
     ]
