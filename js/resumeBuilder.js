@@ -76,7 +76,7 @@ var projects = {
 var bio = {
     "name": "Oxana Web",
     "role": "Web Developer",
-    "aboutme": "With my experience in start-ups project management, I feel I bring a unique perspective to front end development and user interface design. Each position I have held has transmuted my skillset and goals towards forward-thinking technology. I am obsessed with expanding my knowledge, solving challenging problems and staying on the bleeding edge.",
+    "aboutme": "With my recent experience in start-ups, I feel I bring a unique perspective to front end development and user interface design. Each position I have held has transmuted my skillset and goals towards forward-thinking technology. I am obsessed with expanding my knowledge, solving challenging problems and staying on the bleeding edge.",
     "image" : "images/logo.png",
     "languages" : [
           "English",
@@ -96,9 +96,9 @@ var bio = {
         }
     ],
     "skills": [
-        "Project Management",
+        "Adobe Illustrator",
         "HTML/CSS",
-        "JavaScript",
+        "JavaScript, jQuery, Ajax",
         "Ruby on Rails, PHP, Wordpress",
         "MySQL",
         "Website Performance Optimization"
